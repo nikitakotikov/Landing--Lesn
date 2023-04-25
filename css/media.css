@@ -1,0 +1,483 @@
+@media (max-width: 1440px) {
+    .tariff-variants__list {
+        gap: 198px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0 40px;
+    }
+    .header__logo-black {
+        display: none;
+    }
+
+    .header__logo-mobile {
+        display: inline-block;
+    }
+
+    .header__list {
+        width: 50%;
+        height: 100vh;
+        gap: 40px;
+        left: 0;
+        padding: 75px;
+        position: absolute;
+        visibility: hidden;
+        top: -15px;
+        z-index: 1000;
+        font-size: 30px;
+        opacity: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        background-color: var(--color-light);
+        -webkit-transform: translateX(-50px);
+            -ms-transform: translateX(-50px);
+                transform: translateX(-50px);
+        -webkit-transition: opacity .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .header__list--active {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+        -webkit-transition: opacity .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out;
+        transition: opacity .3s ease-in-out, visibility .3s ease-in-out, transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .header__list::before {
+        content: '';
+        background-image: url('../img/logo.svg');
+        width: 100%;
+        height: 100%;
+        margin-bottom: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .burger {
+        display: inline-block;
+    }
+
+    .header__container {
+        position: relative;
+        padding: 0 40px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .hero {
+        padding-bottom: 150px;
+    }
+
+    .hero__container {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .hero__text-wrapper {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        color: var(--color-light);
+    }
+
+    .hero__title {
+        color: var(--color-light);
+    }
+
+    .hero__descr {
+        margin-bottom: 50px;
+    }
+
+    .hero__caption {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        margin-bottom: 90px;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    }
+
+    .hero__list {
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 100%;
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+        color: var(--color-dark);
+    }
+
+    .hero__item {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+
+    .hero__button {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        width: 100%;
+        padding: 40px 100px;
+        font-size: 36px;
+    }
+
+    .hero__img-wrapper {
+        width: 100%;
+        z-index: -5;
+        position: absolute;
+    }
+
+    .hero__img {
+        width: 100%;
+        z-index: -1;
+        left: 0;
+        height: 80%;
+        right: 0;
+        top: -212px;
+    }
+
+    .program {
+        background-color: transparent;
+    }
+
+    .program__list {
+        display: none;
+    }
+
+    .tariff-variants__list {
+        gap: 27px;
+    }
+
+    .program__title {
+        text-align: center;
+    }
+
+    .for-whom {
+        padding-bottom: 80px;
+    }
+
+    .price__container {
+        padding: 0 ;
+    }
+
+    .cards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        gap: 50px;
+    }
+
+    .card {
+        display: block;
+        opacity: 1;
+    }
+
+    .teams__item:nth-child(3n + 2) {
+        margin-top: 0;
+    }
+    .element__item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .element__item--last {
+        max-width: 100%;
+    }
+
+    .element__descr {
+        font-size: 20px;
+    }
+
+    .works__container {
+        position: relative;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .works-left__content {
+        padding-left: 0;
+    }
+
+    .works__title,
+    .works__descr {
+        text-align: center;
+    }
+
+    .swiper {
+        margin-right: auto;
+        width: 73%;
+    }
+
+    .swiper-slide {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center
+    }
+    
+    .swiper__btns {
+        display: none;
+    }
+
+    .swiper__btn--prev{
+        margin-right: 60px;
+    }
+    
+    .works__descr {
+        margin-bottom: 60px;
+    }
+
+    .accordion__control::before {
+        right: 9px;
+        top: -14px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .payment {
+        padding: 60px 0;
+        height: 100%;
+    }
+
+    .payment__logo {
+        margin-bottom: 150px;
+    }
+
+    .payment__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .payment__content-left {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+    .payment__descr {
+        margin-bottom: 50px;
+    }
+
+    .payment__link {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        font-size: 25px;
+    }
+
+    .payment__content-right {
+        width: 100%;
+    }
+
+    .payment__form {
+        gap: 30px;
+    }
+
+    .payment__button {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .hero__title {
+        font-size: 90px;
+    }
+
+    .for-whom__item {
+        padding: 50px 20px;
+    }
+
+    .price__subtitle {
+        font-size: 70px;
+    }
+
+    .price__descr {
+        font-size: 35px;
+    }
+
+    .tariff-variants__list {
+        gap: 68px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 20px 15px;
+    }
+
+    .burger--active .burger__line::before,
+    .burger--active .burger__line::after {
+        background-color: var(--color-dark);
+    }
+
+    .header__list::before {
+        margin-top: 20px;
+        height: 10%;
+        margin-bottom: 30px;
+    }
+
+    .header__list {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 70px;
+    }
+
+    .hero__title--black {
+        padding-left: 40px;
+    }
+
+    .hero__descr {
+        font-size: 18px;
+    }
+
+    .hero__list {
+        gap: 20px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .card__title {
+        font-size: 18px;
+    }
+
+    .card__title--premium::after,
+    .card__title--vip::after {
+        right: -30px;
+    }
+
+    .for-whom__subtitle {
+        font-size: 20px;
+    }
+
+    .element__item {
+        font-size: 15px;
+    }
+
+    .price__title {
+        font-size: 40px;
+    }
+
+    .price__subtitle {
+        font-size: 35px;
+    }
+
+    .price__descr {
+        font-size: 20px;
+    }
+
+    .tariff__price-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 50px;
+    }
+
+    .tariff__price--old::after {
+        top: 33px;
+        left: 25%;
+    }
+
+    .tariff__button {
+        font-size: 15px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .teams__item__content {
+        padding-top: 100%;
+        background-size: contain;
+    }
+
+    .accordion {
+        padding: 20px 10px;
+    }
+    
+    .accordion__control {
+        font-size: 12px;
+    }
+
+    .accordion__control::before {
+        right: 9px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .accordion__control::after {
+        right: 20px;
+        width: 12px;
+        height: 12px;
+        -webkit-transform-origin: 3px 9px;
+            -ms-transform-origin: 3px 9px;
+                transform-origin: 3px 9px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__title {
+        font-size: 50px;
+    }
+
+    .hero__title--black {
+        padding-left: 40px;
+    }
+
+    .hero__descr {
+        font-size: 14px;
+    }
+}

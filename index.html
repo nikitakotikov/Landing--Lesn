@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="libs/accordion.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container header__container flex">
+            <a href="#" class="header__logo-link">
+                <img class="header__logo-black" src="img/logo.svg" alt="Логотип Лесон">
+                <img class="header__logo-mobile" src="img/logo-mobile.svg" alt="Логотип Лесон">
+            </a>
+            <nav class="nav header__nav">
+              <ul class="nav__list header__list list-reset flex">
+                <li class="nav__item header__item">
+                  <a class="nav__link header__link" href="#program">
+                    Программа
+                  </a>
+                </li>
+                <li class="nav__item header__item">
+                  <a class="nav__link header__link" href="#for-whom">
+                    Для кого
+                  </a>
+                </li>
+                <li class="nav__item header__item">
+                  <a class="nav__link header__link" href="#tariff-variants">
+                    Тарифы
+                  </a>
+                </li>
+                <li class="nav__item header__item">
+                  <a class="nav__link header__link" href="#faq" lang="en">
+                    FAQ
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="burger">
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container flex">
+                <div class="hero__text-wrapper flex">
+                    <p class="hero__caption">
+                        Авторская система <span lang="en">Lara Ertl</span> на&nbsp;основе магистерской программы <span lang="en">IUM MONACO</span>
+                    </p>
+                    <h1 class="hero__title" lang="en">
+                        <span class="hero__title--red ">luxury</span> <span class="hero__title--black">codes</span>
+                    </h1>
+                    <p class="hero__descr">
+                        Разработай всеми желанный бренд по&nbsp;специальным люкс кодам
+                    </p>
+                    <a class="hero__button btn" href="#tariff-variants">
+                        Записаться
+                    </a>
+                    <ul class="hero__list list-reset flex">
+                        <li class="hero__item">
+                            <p class="hero__subtitle">
+                                Старт
+                            </p>
+                            <p class="hero__info">
+                                <time datetime="2022-07-19">19&nbsp;июля</time>
+                            </p>
+                        </li>
+                        <li class="hero__item">
+                            <p class="hero__subtitle">
+                                Продолжительность
+                            </p>
+                            <p class="hero__info">
+                                1,5 месяца
+                            </p>
+                        </li>
+                        <li class="hero__item">
+                            <p class="hero__subtitle">
+                                Формат
+                            </p>
+                            <p class="hero__info">
+                                Online &amp;&nbsp;Offline
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero__img-wrapper">
+                    <img src="img/hero-img.jpg" alt="" class="hero__img">
+                </div>
+            </div>
+        </section>
+        <section class="program" id="program">
+            <div class="container program__container">
+                <h2 class="program__title title title">
+                    Программа курса
+                </h2>
+                <div class="program__content flex">
+                    <ul class="program__list list-reset flex">
+                        <li class="program__item">
+                            <button class="program__button program__button--active" data-path="0">
+                                Модуль&nbsp;1. Введение в&nbsp;рынок Luxury
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="1">
+                                Модуль&nbsp;2. Бренд-менеджмент
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="2">
+                                Модуль&nbsp;3. Luxury Codes
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="3">
+                                Модуль&nbsp;4. Разработка идеи
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="4">
+                                Модуль&nbsp;5. Маркетинг и&nbsp;управление
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="5">
+                                Модуль&nbsp;6. Digital
+                            </button>
+                        </li>
+                        <li class="program__item">
+                            <button class="program__button" data-path="6">
+                                Special. Самопрезентация
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="cards program__cards flex">
+                        <div class="card card--active card--active--opacity" data-target="0">
+                            <h3 class="card__title">
+                                Модуль&nbsp;1.<br>Введение в&nbsp;рынок Luxury
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">4</span>&nbsp;видеоурока
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        Введение в&nbsp;программу. Что будет?
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Как устроен рынок Luxury
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Принципы и&nbsp;тренды
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Игроки рынка Luxury
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Кейсы мировых брендов
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Источники для изучения Luxury
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Конгломераты
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Дорожная карта обучения
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;определите, в&nbsp;какой точке находитесь; определите стиль Luxury мышления; начнете изучать кейсы мировых брендов и&nbsp;разберетесь в&nbsp;их&nbsp;географии.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="1">
+                            <h3 class="card__title">
+                                Модуль&nbsp;2.<br>Бренд-менеджмент
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">4</span>&nbsp;видеоурока
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        Бренд-менеджер. Кто это?
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Бренд. Что это?
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Структура бренда
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Восприятие бренда
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Кейсы мировых брендов
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        ДНК бренда
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Платформа бренда
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Визуализация бренда
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Каналы коммуникации бренда
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Влияние факторов
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;создадите структуру бренда по&nbsp;предоставленным материалам
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="2">
+                            <h3 class="card__title">
+                                Модуль&nbsp;3.<br>Luxury Codes
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">6</span>&nbsp;видеоурока
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        2&nbsp;кода + кейс
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Кейсы по&nbsp;кодам
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Кейс Nespresso
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;научитесь внедрять Luxury Codes в&nbsp;любой бренд и&nbsp;станете замечать их&nbsp;повсеместно!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="3">
+                            <h3 class="card__title">
+                                Модуль&nbsp;4.<br>Разработка идеи
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">5</span>&nbsp;видеоурока 
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        Выбор ниши
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Разработка концепции
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Определение миссии
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Подготовка презентации
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Питчинг
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Шаблон позициониорвания
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Mission statement
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Карта бренда
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Кейсы мировых брендов
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Шаблоны презентаций
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Инструкция к питчингу
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;разработаете и&nbsp;презентуете свою идею.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="4">
+                            <h3 class="card__title card__title--premium">
+                                Модуль&nbsp;5.<br>Маркетинг и&nbsp;управление
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">4</span>&nbsp;видеоурока
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        Антипринципы. Часть&nbsp;1
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        Антипинципы. Часть&nbsp;2
+                                    </li>
+                                    <li class="card__text card__item-video card__item--lux">
+                                        Путь клиента
+                                    </li>
+                                    <li class="card__text card__item-video card__item--lux">
+                                        Управление командой
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Кейсы антиприципов
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Тест &laquo;Антиприципы&raquo;
+                                    </li>
+                                    <li class="card__text card__item-material card__item--lux">
+                                        Шаблон &laquo;Путь клиента&raquo;
+                                    </li>
+                                    <li class="card__text card__item-material card__item--lux">
+                                        Инструкция по&nbsp;обучению сотрудников
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;разработаете маркетинговую стратегию с&nbsp;использованием антипринципов и&nbsp;простроите путь клиента.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="5">
+                            <h3 class="card__title card__title--vip">
+                                Модуль&nbsp;6.<br>Digital
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    <span class="card__list-subtitle--red">4</span>&nbsp;видеоурока
+                                </p>
+                                <ul class="card__list-video list-reset">
+                                    <li class="card__text card__item-video">
+                                        Переход в&nbsp;онлайн
+                                    </li>
+                                    <li class="card__text card__item-video">
+                                        <span lang="en">Digital</span> стратегия
+                                    </li>
+                                    <li class="card__text card__item-video" lang="en">
+                                        Instagram
+                                    </li>
+                                    <li class="card__text card__item-video" lang="en">
+                                        Tone of&nbsp;voice
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset">
+                                    <li class="card__text card__item-material">
+                                        Кейс мирового бренда
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Скрипт для общения в&nbsp;соц,сетях
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card__list-wrapper">
+                                <p class="card__list-subtitle">
+                                    Практика
+                                </p>
+                                <p class="card__text">
+                                    Вы&nbsp;разработаете и&nbsp;презентуете <span lang="en">Digital</span>-стратегию
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" data-target="6">
+                            <h3 class="card__title">
+                                Special.<br>Самопрезентация
+                            </h3>
+                            <div class="card__list-wrapper">
+                                <p class="card__text card__text--special">
+                                    В&nbsp;этом <span lang="en">Special</span>-модуле вы&nbsp;узнаете, как производить верное впечатление на&nbsp;окружающих с&nbsp;использованием <span lang="en">Luxury Codes</span>.
+                                </p>
+                            </div>
+                            <div class="card__list-wrapper card__list-wrapper--special">
+                                <p class="card__list-subtitle">
+                                    Материалы
+                                </p>
+                                <ul class="card__list-material list-reset card__list-material--last">
+                                    <li class="card__text card__item-material">
+                                        Видеопример самопрезентации от&nbsp;Лары
+                                    </li>
+                                    <li class="card__text card__item-material">
+                                        Секреты самопрезентации
+                                    </li>
+                                    <li class="card__text card__item-material card__item--premium">
+                                        Закрытый список вакансий и&nbsp;стажировок
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="for-whom" id="for-whom">
+            <div class="container for-whom__container flex">
+                <h2 class="for-whom__title title">
+                    Для кого эта программа?
+                </h2>
+                <ul class="for-whom__list list-reset flex">
+                    <li class="for-whom__item element">
+                        <h3 class="for-whom__subtitle element__title">
+                            Для тех, кто хочет работать в&nbsp;сфере Luxury
+                        </h3>
+                        <ul class="element__list list-reset flex">
+                            <li class="element__item">
+                                Вы&nbsp;профессионально погрузитесь в&nbsp;рынок и&nbsp;перестанете быть лишь его потребителем.
+                            </li>
+                            <li class="element__item">
+                                Сможете пройти в&nbsp;отбор на&nbsp;оплачиваемую стажировку в&nbsp;маркетинговое агентство Лары Эртл с&nbsp;дальнейшим трудоустройством.
+                            </li>
+                            <li class="element__item">
+                                Получите список востребованны вакансий, которые можно занять уже с&nbsp;сентября.
+                            </li>
+                            <li class="element__item">
+                                Получите список востребованны вакансий, которые можно занять уже с&nbsp;сентября.
+                            </li>
+                            <li class="element__item">
+                                Составите резюме и&nbsp;подготовите самопрезентацию.
+                            </li>
+                            <li class="element__item">
+                                Разберётесь в&nbsp;принципах рынка, научитесь внедрять Luxury Codes в&nbsp;любой бренд и&nbsp;станете желанным сотрудником.
+                            </li>
+                            <li class="element__item">
+                                Разработаете 3&nbsp;собственных кейса по&nbsp;внедрению Luxury Codes в&nbsp;бренд и&nbsp;сможете приложить их&nbsp;к&nbsp;своему портфолио.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="for-whom__item element">
+                        <h3 class="for-whom__subtitle element__title">
+                            Тем, кто хочет создать свой Luxury бренд
+                        </h3>
+                        <ul class="element__list list-reset flex">
+                            <li class="element__item">
+                                Вы&nbsp;наконец приступите к&nbsp;созданию своего желанного бренда!
+                            </li>
+                            <li class="element__item">
+                                Начнёте реализовывать концепцию бренда по&nbsp;проработанной дорожной карте уже в&nbsp;сентябре.
+                            </li>
+                            <li class="element__item">
+                                Разработаете актуальную digital стратегию своего бренда.
+                            </li>
+                            <li class="element__item">
+                                Создадите комплексную концепцию своего бренда под руководством маркетингового агенства Лары Эртл.
+                            </li>
+                            <li class="element__item">
+                                Внедрите систему люкс кодов в&nbsp;свой бренд, сделав его желанным и&nbsp;продаваемым.
+                            </li>
+                            <li class="element__item">
+                                Проанализируете рынок для создания лучшего предложения.
+                            </li>
+                            <li class="element__item">
+                                Получите сертификат об&nbsp;участии в&nbsp;программе LUXURY CODES.
+                            </li>
+                            <li class="element__item">
+                                Сформируете продающую презентацию вашего бренда для привлечения инвестиций.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="for-whom__item element">
+                        <h3 class="for-whom__subtitle element__title">
+                            Владельцам брендов любого сегмента
+                        </h3>
+                        <ul class="element__list list-reset flex">
+                            <li class="element__item">
+                                Проведёте комплексный &laquo;refresh&raquo; своего бренда.
+                            </li>
+                            <li class="element__item">
+                                Сможете применить опыт мировых брендов.
+                            </li>
+                            <li class="element__item">
+                                Усилите и&nbsp;закрепите имидж своей компании на&nbsp;рынке.
+                            </li>
+                            <li class="element__item">
+                                Определите актуальную миссию, днк, платформу и&nbsp;карту своего бренда.
+                            </li>
+                            <li class="element__item">
+                                Установите актуальные каналы коммуникации и&nbsp;расставите верные акценты.
+                            </li>
+                            <li class="element__item">
+                                Внедрите недостающие люкс коды во&nbsp;все сферы своего бренда и&nbsp;повысите его желанность среди целевой аудитории.
+                            </li>
+                            <li class="element__item">
+                                Проработаете путь своего клиента и&nbsp;повысите его лояльность.
+                            </li>
+                            <li class="element__item">
+                                Повысите продажи и&nbsp;средний чек.
+                            </li>
+                            <li class="element__item">
+                                Утвердите актуальную digital стратегию своего бренда.
+                            </li>
+                            <li class="element__item">
+                                Разработаете план масштабирования географии бренда.
+                            </li>
+                            <li class="element__item">
+                                Получите сертификат об&nbsp;участии в&nbsp;программе LUXURY CODES.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="for-whom__item element">
+                        <h3 class="for-whom__subtitle element__title">
+                            Корпоративным сотрудникам
+                        </h3>
+                        <ul class="element__list list-reset flex">
+                            <li class="element__item">
+                                Сотрудники одной компании могут проходить программу совместно по&nbsp;специальным корпоративным условиям.
+                            </li>
+                            <li class="element__item">
+                                Вы&nbsp;изучите правила и&nbsp;антипринципы рынка люкс на&nbsp;основе кейсов мировых брендов.
+                            </li>
+                            <li class="element__item">
+                                Проработаете 3&nbsp;кейса-предложения по&nbsp;стратегическому улучшению своей компании.
+                            </li>
+                            <li class="element__item">
+                                Разработаете стратегию внедрения люкс кодов, сделав продукт компании более желанным
+                            </li>
+                            <li class="element__item">
+                                Разберётесь в&nbsp;смежных сферах деятельности компании и&nbsp;сможете улучшить коммуникацию с&nbsp;командой.
+                            </li>
+                            <li class="element__item">
+                                Освоите мышление люкс кодов и&nbsp;будете вести коммуникацию с&nbsp;клиентом на&nbsp;одном языке, повышая чек.
+                            </li>
+                            <li class="element__item">
+                                Усовершенствуете путь клиента компании.
+                            </li>
+                            <li class="element__item">
+                                Разработайте план масштабирования георграфии компании.
+                            </li>
+                            <li class="element__item">
+                                Пропишите актуальную digital стратегию и&nbsp;tone of&nbsp;voice компании.
+                            </li>
+                            <li class="element__item">
+                                Создадите продающие презентации для продукта или услуги компании.
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                <div class="element__item element__item--last">
+                    <p class="element__descr">
+                        Для получения предложения по&nbsp;корпоративному обучению напишите нам 
+                        <a class="element__link" href="mailto:support@leson.me?subject=Корпоративное-обучение">support@leson.me</a> 
+                    </p>
+                    <p class="element__descr">
+                        Тема письма <a class="element__link" href="mailto:support@leson.me?subject=Корпоративное-обучение">&laquo;Корпоративное обучение&raquo;</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="price">
+            <div class="container price__container">
+                <h3 class="price__title" lang="en">
+                    Price
+                </h3>
+                <ul class="price__list flex list-reset">
+                    <li class="price__element">
+                        <p class="price__subtitle">
+                            2&nbsp;500&nbsp;000&nbsp;₽
+                        </p>
+                        <p class="price__descr">
+                            Средняя стоимость разработки концепции бренда маркетинговым агентством
+                        </p>
+                    </li>
+                    <li class="price__element">
+                        <p class="price__subtitle">
+                            25&nbsp;000&nbsp;&euro;
+                        </p>
+                        <p class="price__descr">
+                            Стоит обучение в&nbsp;университете на&nbsp;Luxury Brand Management
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="tariff-variants" id="tariff-variants">
+            <div class="container tariff-variants__container">
+                <h2 class="tariff-variants__title title">
+                    Тарифы
+                </h2>
+                <ul class="tariff-variants__list list-reset flex">
+                    <li class="tariff-variants__item tariff tariff--standart">
+                        <h3 class="tariff__title tariff__title--standart">
+                            Стандарт
+                        </h3>
+                        <p class="tariff__descr tariff__descr--standart">
+                            30&nbsp;мест
+                        </p>
+                        <p class="tariff__subtitle tariff__subtitle--standart">
+                            4&nbsp;основных модуля
+                        </p>
+                        <ul class="tariff__list-module tariff__list-module--standart list-reset">
+                            <li class="tariff__item-module tariff__item-module--standart">
+                                Рынок Luxury
+                            </li>
+                            <li class="tariff__item-module tariff__item-module--standart">
+                                Бренд-менеджмент
+                            </li>
+                            <li class="tariff__item-module tariff__item-module--standart" lang="en">
+                                Luxury codes 
+                            </li>
+                            <li class="tariff__item-module tariff__item-module--standart">
+                                Формирование идеи
+                            </li>
+                        </ul>
+                        <ul class="tariff__list list-reset flex">
+                            <li class="tariff__item tariff__item--standart">
+                                Домашние задания без проверки
+                            </li>
+                            <li class="tariff__item tariff__item--standart">
+                                Общий чат с&nbsp;участниками и&nbsp;кураторами
+                            </li>
+                            <li class="tariff__item tariff__item--standart">
+                                Дополнительный урок &laquo;Самопрезентация с&nbsp;люкс кодами&raquo;
+                            </li>
+                            <li class="tariff__item tariff__item--last tariff__item--last--standart">
+                                Набор &laquo;Luxury brand manager&raquo; лучшим студентам
+                            </li>
+                        </ul>
+                        <div class="tariff__price-wrapper flex">
+                            <p class="tariff__price tariff__price--new tariff__price--new--standart tariff__price--standart">
+                                $&nbsp;108
+                            </p>
+                            <p class="tariff__price tariff__price--old tariff__price--old--standart tariff__price--standart">
+                                $&nbsp;135
+                            </p>
+                        </div>
+                        <a class="btn tariff__button tariff__button--standart" href="pages/form.html">
+                            Выбрать тариф
+                        </a>
+                    </li>
+                    <li class="tariff-variants__item tariff tariff--premium">
+                        <h3 class="tariff__title tariff__title--premium">
+                            Premium
+                        </h3>
+                        <p class="tariff__descr tariff__descr--premium">
+                            20&nbsp;мест
+                        </p>
+                        <p class="tariff__subtitle tariff__subtitle--premium">
+                            Все, что входит в&nbsp;тариф &laquo;Стандарт&raquo;
+                        </p>
+                        <p class="tariff__copy tariff__copy--premium">
+                            А&nbsp;так&nbsp;же:
+                        </p>
+                        <ul class="tariff__list tariff__list--premium list-reset flex">
+                            <li class="tariff__item tariff__item--premium">
+                                Дополнительный модуль Маркетинг и&nbsp;управление брендом (2&nbsp;урока)
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                База материалов &laquo;Премиум&raquo; для практического внедрения (шаблоны, дорожные карты, практикумы)
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                Легендарный кейс Nespresso по&nbsp;внедрению люкс кодов
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                Проверка домашних заданий и&nbsp;фидбэк от&nbsp;кураторов
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                Разбор кейсов студентов в&nbsp;Zoom
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                Часовая вопрос/ответ сессия с&nbsp;Ларой Эртл
+                            </li>
+                            <li class="tariff__item tariff__item--premium">
+                                Список актуальных стажировок и&nbsp;вакансий в&nbsp;люкс и&nbsp;премиум компаниях в&nbsp;России и&nbsp;зарубежом
+                            </li>
+                            <li class="tariff__item tariff__item--last tariff__item--last--premium">
+                                Капсюльная кофемашина Nespresso &laquo;Latissimma One&raquo; и&nbsp;набор из&nbsp;300 капсул лучшему студенту
+                            </li>
+                        </ul>
+                        <div class="tariff__price-wrapper flex">
+                            <p class="tariff__price tariff__price--new tariff__price--new--premium">
+                                $&nbsp;134
+                            </p>
+                            <p class="tariff__price tariff__price--old tariff__price--old--premium">
+                                $&nbsp;218
+                            </p>
+                        </div>
+                        <a class="btn tariff__button tariff__button--premium" href="pages/form.html">
+                            Выбрать тариф
+                        </a>
+                    </li>
+                    <li class="tariff-variants__item tariff tariff--lux">
+                        <h3 class="tariff__title tariff__title--lux">
+                            Lux
+                        </h3>
+                        <p class="tariff__descr tariff__descr--lux">
+                            10&nbsp;мест
+                        </p>
+                        <p class="tariff__subtitle tariff__subtitle--lux">
+                            Все, что входит в&nbsp;тариф &laquo;Премиум&raquo;
+                        </p>
+                        <p class="tariff__copy tariff__copy--lux">
+                            А&nbsp;так&nbsp;же:
+                        </p>
+                        <ul class="tariff__list tariff__list--lux flex list-reset">
+                            <li class="tariff__item tariff__item--lux">
+                                Полный модуль Маркетинг и&nbsp;управление бредом
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Дополнительный модуль Digital
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Урок &laquo;Презентация проекта для привлечения инвестиций&raquo;
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Сессии в&nbsp;офисе агентства в&nbsp;Москве
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Проверка домашних заданий люкс куратором и&nbsp;Ларой
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Отдельный закрытый чат нетворкинга
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Разбор кейсов с&nbsp;продюсером проектов и&nbsp;Ларой для организации работы
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Разбор кейсов со&nbsp;специалистом по&nbsp;Digital-маркетингу
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Разбор кейсов на&nbsp;Zoom-встрече или в&nbsp;офисе вместе люкс куратором и&nbsp;Ларой
+                            </li>
+                            <li class="tariff__item tariff__item--lux">
+                                Индивидуальный часовой разбор&nbsp;&mdash; вопрос/ответ на&nbsp;Zoom встрече или в&nbsp;офисе с&nbsp;Ларой
+                            </li>
+                            <li class="tariff__item tariff__item--last tariff__item--last--lux">
+                                IPAD 12&nbsp;AIR для презентации нового проекта лучшему студенту
+                            </li>
+                        </ul>
+                        <div class="tariff__price-wrapper flex">
+                            <p class="tariff__price tariff__price--new tariff__price--new--lux">
+                                $&nbsp;475
+                            </p>
+                            <p class="tariff__price tariff__price--old tariff__price--old--lux">
+                                $&nbsp;685
+                            </p>
+                        </div>
+                        <a class="btn tariff__button tariff__button--lux" href="pages/form.html">
+                            Выбрать тариф
+                        </a>
+                    </li>
+                    <li class="tariff-variants__item tariff tariff--plus">
+                        <h3 class="tariff__title tariff__title--plus">
+                            Клиентский пакет
+                        </h3>
+                        <p class="tariff__descr tariff__descr--plus">
+                            5&nbsp;мест
+                        </p>
+                        <p class="tariff__subtitle tariff__subtitle--plus">
+                            Все, что входит в&nbsp;тариф &laquo;Люкс&raquo;
+                        </p>
+                        <p class="tariff__copy tariff__copy--plus">
+                            А&nbsp;так&nbsp;же:
+                        </p>
+                        <ul class="tariff__list tariff__list--plus list-reset flex">
+                            <li class="tariff__item tariff__item--plus">
+                                Комплексное индивидуальное ведение проекта &laquo;под ключ&raquo; с&nbsp;маркетинговым агенством Лары
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Работа специалистов из&nbsp;отделов: &laquo;Аналитика, Маркетинг, Продажи, Продюсирование, Digital&raquo;
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Анализ существующего бренда по&nbsp;встроенным люкс кодам
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Разбор и&nbsp;внедрение каждого люкс кода в&nbsp;бренд совместно с&nbsp;Ларой
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Стратегия каналов коммуникации от&nbsp;Лары и&nbsp;команды для быстрого старта нового или обновлённого бренда в&nbsp;сентябре
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Возможность продолжить этап &laquo;Реализации&raquo; концепции бренда с&nbsp;агенством по&nbsp;выгодным условиям
+                            </li>
+                            <li class="tariff__item tariff__item--plus">
+                                Отдельная закрытая лекция-бранч с&nbsp;эксклюзивной информацией в&nbsp;офисе агенства
+                            </li>
+                            <li class="tariff__item tariff__item--last tariff__item--last--plus">
+                                Другие клиентские выгоды и&nbsp;подарки
+                            </li>
+                        </ul>
+                        <div class="tariff__price-wrapper flex">
+                            <p class="tariff__price tariff__price--new tariff__price--new--plus tariff__price--plus">
+                                $&nbsp;1234
+                            </p>
+                            <p class="tariff__price tariff__price--old tariff__price--old--plus tariff__price--plus">
+                                $&nbsp;6172
+                            </p>
+                        </div>
+                        <a class="btn tariff__button tariff__button--plus" href="pages/form.html">
+                            Выбрать тариф
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="works">
+            <div class="container works__container flex">
+                <div class="works-left__content flex">
+                    <h2 class="works__title title">
+                        Наши работы
+                    </h2>
+                    <p class="works__descr">
+                        Наше агентство работает с&nbsp;международными и&nbsp;российскими брендами более десяти лет.
+                    </p>
+                    <div class="swiper__btns">
+                        <button class="swiper__btn--prev"></button>
+                        <button class="swiper__btn--next"></button>
+                    </div>
+                </div>
+                <div class="swiper">   
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img aldo-coppola"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Aldo Coppola Monaco 
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Franchising marketing strategy till 2022 year
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img alfa"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    ALFA STOM + ALFA COSMO ALMATY
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Brand renovation 2021- today
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img hermes"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Hermes DIGITAL
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Digitalisation upgrade (2019&nbsp;September) Distribution marketing kit (2019&nbsp;November)
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img beers"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    De&nbsp;Beers Europe
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Natural diamonds marketing analysis and strategy Ad&nbsp;Campaign
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img yacht"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Monaco Yacht Show 
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Luxury Codes Analysis Luxury marketing strategy accepted 2020 January Luxury Ad&nbsp;creation 2019
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img bank"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Monaco Rothshield Bank Grand Heritage Event
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Complex marketing and realisation. July 2019
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img cartier "></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Cartier 
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Brand luxury audit of&nbsp;services Digital strategy within global brand strategy
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img porsche "></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Porsche 
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Porsche App and Key Development accepted
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img dior"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Dior
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Distribution strategy- Russia Brand extension strategy - Dior Hotel 2019-2021
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img talia"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Talia
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Entering Russian Market strategy 2021
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img cannes"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Croisette Beauty Concept Cannes
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    First Concept creation SMM strategy and realisation
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img mepra"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Mepra
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    New strategy 2025 accepted 2021
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide flex">
+                        <div class="swiper-card">
+                            <div class="swiper-card__img monaco"></div>
+                            <div class="swiper-card__content">
+                                <h3 class="swiper-card__subtitle">
+                                    Nikki Beach Monaco
+                                </h3>
+                                <p class="swiper-card__descr">
+                                    Luxury strategy/analysis Review of&nbsp;customer needs Staff training realisation July 2019
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="teams">
+            <div class="container teams__container">
+                <h2 class="teams__title title">
+                    Команда
+                </h2>
+                <ul class="teams__list list-reset flex">
+                    <li class="teams__item">
+                        <div class="teams__item__content yana">
+                            <h3 class="teams__subtitle">
+                                Яна Деревянко 
+                            </h3>
+                            <p class="teams__descr">
+                                Юридическое сопровождение бизнеса, специалист в&nbsp;области международного экономического права, права в&nbsp;сфере медицины и&nbsp;косметологии, интернет право
+                            </p>
+                        </div>
+                    </li>
+                    <li class="teams__item">
+                        <div class="teams__item__content lara">
+                            <h3 class="teams__subtitle">
+                                Лара Жаклин Эртл
+                            </h3>
+                            <p class="teams__descr">
+                                Руководитель Saffari&nbsp;M, основатель платформы LESN.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="teams__item">
+                        <div class="teams__item__content lydia">
+                            <h3 class="teams__subtitle">
+                                Лидия Вольгуст
+                            </h3>
+                            <p class="teams__descr">
+                                Продюсер платформы LESN, руководитель отдела Media в&nbsp;Saffari&nbsp;M.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="teams__item">
+                        <div class="teams__item__content natalia">
+                            <h3 class="teams__subtitle">
+                                Наталья Пасечник
+                            </h3>
+                            <p class="teams__descr">
+                                Специалист по&nbsp;интегрированному маркетингу, PR, коммерческий директор Saffari&nbsp;M.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="teams__item">
+                        <div class="teams__item__content anastasia">
+                            <h3 class="teams__subtitle">
+                                Анастасия Кравцова
+                            </h3>
+                            <p class="teams__descr">
+                                Специалист по&nbsp;social media marketing и&nbsp;social media стратегиям, content maker, креативный таргетолог Saffari&nbsp;M.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="teams__item">
+                        <div class="teams__item__content maxim">
+                            <h3 class="teams__subtitle">
+                                Максим Германов
+                            </h3>
+                            <p class="teams__descr">
+                                Бизнес аналитик, специалист по производственным системам; управление рисками, ввод брендов на рынок, глубинный анализ компании, стратегический анализ.
+
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="faq" id="faq">
+            <div class="container faq__container">
+                <h2 class="faq__title title" lang="en">
+                    faq
+                </h2>
+                <ul class="accordion-list list-reset flex">
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Сколько длится программа?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            Программа стартует <time datetime="2022-07-19">19&nbsp;июля</time> и длится 1,5 месяца.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            В&nbsp;каком формате будет проходить программа?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            Записанные уроки на&nbsp;платформе, которые вы&nbsp;сможете просматривать в&nbsp;любое удобное для вас время.
+                        </p>
+                        <p class="accordion__text">
+                            К&nbsp;каждому модулю приложены дополнительные материалыи домашние задания. Для тарифов Lux и&nbsp;Клиентский пакет предусмотрены Зум-сессии и&nbsp;оффлайн встреча.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Где будет проходить программа?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            Программа будет проходить на&nbsp;платформе LESN. Часть материалов предоставляется с&nbsp;помощью мессенджера.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Как долго остается доступ к&nbsp;материалам?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            Доступ ко&nbsp;всем материалам сохраняется на&nbsp;6&nbsp;месяцев
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Чем программа отличается от&nbsp;других?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            На&nbsp;данный момент в&nbsp;русскоязычном пространстве нет ни&nbsp;одной программы по&nbsp;Luxury Codes.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Какой результат я&nbsp;получу?
+                        </button>
+                      <div class="accordion__content">
+                        <p class="accordion__text">
+                            Комплексное понимание Luxury Codes и&nbsp;разработанную стратегию Luxury бренда, которую вы&nbsp;сможете внедрить по&nbsp;завершению курса.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="accordion">
+                        <button class="accordion__control">
+                            Куда обращаться, если не&nbsp;пришёл доступ или у&nbsp;меня остались вопросы?
+                        </button>
+                      <div class="accordion__content">
+                        <a class="accordion__text accordion__link" href="mailto:support@leson.me">
+                            support@leson.me
+                        </a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container flex">
+            <a href="#" class="footer__link">
+                Политика конфеденциальности
+            </a>
+            <a href="#" class="footer__link">
+                Договор оферты
+            </a>
+            <ul class="footer__list list-reset flex">
+                <li class="footer__element">
+                    ООО &laquo;САФФАРИ МЕДИА&raquo;
+                </li>
+                <li class="footer__element">
+                    ИНН 5032318412
+                </li>
+                <li class="footer__element">
+                    ОГРН 1205000044820
+                </li>
+                <li class="footer__element">
+                    Все права защищены
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="libs/focus-visible.js"></script>
+    <script src="libs/accordion.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
